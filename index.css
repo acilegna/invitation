@@ -1,0 +1,48 @@
+ .imgs {
+
+
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 100%;
+     height: 100%;
+
+ }
+
+ section {
+     position: absolute;
+
+ }
+
+ section.container-fluid {
+     padding-right: 0;
+     padding-left: 0;
+ }
+
+ div.derecha {
+     height: 50vh;
+
+     width: 100%;
+     background-image: url('./img/der.png');
+     background-size: cover;
+     background-position: center right;
+     background-attachment: fixed;
+     bottom: 0;
+     position: fixed;
+
+
+ }
+
+ div.izquierda {
+
+     height: 50vh;
+
+     width: 100%;
+     background-image: url('./img/izq.png');
+     position: fixed;
+     background-size: cover;
+     background-position: center left;
+     background-attachment: fixed;
+     bottom: 0;
+
+ }
