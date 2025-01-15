@@ -23,30 +23,29 @@
      background-color: rgba(92, 111, 153, 0);
  }
 
- .imagen {
+ body {
+     background-image: url("img/fondo.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+
+ }
+
+ /*  .imagen {
      background-image: url("img/fondos.jpg");
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
+     background-attachment: fixed;
      width: 100%;
      height: 100vh;
-     position: fixed;
-
-
- }
+} */
 
 
 
 
- h1#title-baby {
-     font-family: "Great Vibes", serif;
-     font-weight: 450;
-     font-size: 50px;
-     font-style: normal;
-     color: #6595d3;
-     margin-top: 40px;
 
- }
 
 
  #paragraph {
@@ -79,29 +78,30 @@
      font-optical-sizing: auto;
      font-style: normal;
      font-size: 25px;
+     margin-top: 10px;
  }
 
  #month {
-     color: #6595d3;
+     color: #9bd0d6;
      text-align: left;
      font-family: "Fraunces", serif;
      font-size: 30px;
  }
 
  #day {
-     color: #4f86ce;
+     color: #9bd0d6;
      text-align: center;
      font-size: 30px;
      font-family: "Fraunces", serif;
      font-style: normal;
-     text-decoration: 2px solid underline#507fbd;
+     text-decoration: 2px solid underline#96d9e0;
      text-underline-position: under;
      text-underline-offset: 10px;
 
  }
 
  #hrs {
-     color: #6595d3;
+     color: #9bd0d6;
      font-family: "Fraunces", serif;
      text-align: right;
      font-size: 30px;
@@ -134,7 +134,7 @@
      font-weight: 450;
      font-size: 50px;
      font-style: normal;
-     color: #6595d3;
+     color: #9bd0d6;
      margin-top: 40px;
 
      background: rgb(255, 255, 255);
