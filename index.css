@@ -1,48 +1,166 @@
  .imgs {
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
+     width: 100%;
+
+ }
+
+ .color {
+     background-color: rgba(255, 0, 0, 0);
+
+ }
+
+ .color2 {
+     background-color: rgb(255, 255, 255);
+     height: 100vh;
 
 
+
+ }
+
+ .color3 {
+     background-color: rgba(92, 111, 153, 0);
+ }
+
+ .imagen {
+     background-image: url(img/fondo.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
      width: 100%;
-     height: 100%;
+     height: 100vh;
+     position: fixed;
+
 
  }
 
- section {
+
+
+
+ h1#title-baby {
+     font-family: "Great Vibes", serif;
+     font-weight: 450;
+     font-size: 50px;
+     font-style: normal;
+     color: #6595d3;
+     margin-top: 40px;
+
+ }
+
+
+ #paragraph {
+     font-family: "Raleway", serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+     font-size: 15px;
+     color: #6c8394;
+     margin-top: 8px;
+ }
+
+ #title-invitation {
+     font-family: "Raleway", serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+     font-size: 25px;
+     color: #b88776;
+ }
+
+ .size-animation {
+     width: 220px;
+     height: 220px;
+
+ }
+
+ #title-espera {
+
+     color: #c3998b;
+     font-family: "Raleway", serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+     font-size: 25px;
+ }
+
+ #month {
+     color: #6595d3;
+     text-align: left;
+     font-family: "Fraunces", serif;
+     font-size: 30px;
+ }
+
+ #day {
+     color: #4f86ce;
+     text-align: center;
+     font-size: 30px;
+     font-family: "Fraunces", serif;
+     font-style: normal;
+     text-decoration: 2px solid underline#507fbd;
+     text-underline-position: under;
+     text-underline-offset: 10px;
+
+ }
+
+ #hrs {
+     color: #6595d3;
+     font-family: "Fraunces", serif;
+     text-align: right;
+     font-size: 30px;
+ }
+
+ @media (max-width: 629px) {
+
+     h1#title-baby {
+
+         font-size: 40px;
+
+     }
+
+ }
+
+ .circle {
+
+     width: 100px;
+     height: 100px;
+     border-radius: 100%;
+     box-shadow: 40px 0px 0 #d9534f;
+ }
+
+
+
+
+
+ h1#title-baby {
+     font-family: "Great Vibes", serif;
+     font-weight: 450;
+     font-size: 50px;
+     font-style: normal;
+     color: #6595d3;
+     margin-top: 40px;
+
+    background: rgb(255, 255, 255);
+    position: relative;
+
+ }
+ 
+
+ 
+ 
+
+ h1 span {
      position: absolute;
-
+     right: 0;
+     width: 0;
+     background: rgb(255, 255, 255);
+     border-left: 1px solid #000;
+     animation: escribir 5s steps(30) infinite alternate;
  }
 
- section.container-fluid {
-     padding-right: 0;
-     padding-left: 0;
- }
+ @keyframes escribir {
+     from {
+         width: 83%
+     }
 
- div.derecha {
-     height: 50vh;
-
-     width: 100%;
-     background-image: url('./img/der.png');
-     background-size: cover;
-     background-position: center right;
-     background-attachment: fixed;
-     bottom: 0;
-     position: fixed;
-
-
- }
-
- div.izquierda {
-
-     height: 50vh;
-
-     width: 100%;
-     background-image: url('./img/izq.png');
-     position: fixed;
-     background-size: cover;
-     background-position: center left;
-     background-attachment: fixed;
-     bottom: 0;
-
+     to {
+         width: 15%
+     }
  }
