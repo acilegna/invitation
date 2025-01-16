@@ -23,6 +23,7 @@
 
  body {
      background-image: url("img/fondo.jpg");
+     background-color: #6c8394;
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
@@ -47,6 +48,11 @@
      color: #b88776;
  }
 
+ .size-animation {
+     width: 260px;
+     height: 260px;
+
+ }
 
  #title-espera {
 
