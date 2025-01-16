@@ -13,7 +13,7 @@
 
  .color2 {
      background-color: rgb(255, 255, 255);
-     height: 100vh;
+     height: 100%;
 
 
 
@@ -58,7 +58,7 @@
  }
 
  #title-invitation {
-     font-family: "Raleway", serif;
+     font-family: "Fraunces", serif;
      font-optical-sizing: auto;
      font-style: normal;
      font-size: 25px;
@@ -74,7 +74,7 @@
  #title-espera {
 
      color: #c3998b;
-     font-family: "Raleway", serif;
+     font-family: "Fraunces", serif;
      font-optical-sizing: auto;
      font-style: normal;
      font-size: 25px;
@@ -82,48 +82,33 @@
  }
 
  #month {
-     color: #9bd0d6;
+     color: #6c8394;
      text-align: left;
      font-family: "Fraunces", serif;
      font-size: 30px;
  }
 
  #day {
-     color: #9bd0d6;
+     color: #6c8394;
      text-align: center;
-     font-size: 30px;
+     font-size: 40px;
      font-family: "Fraunces", serif;
      font-style: normal;
-     text-decoration: 2px solid underline#96d9e0;
+     text-decoration: 2px solid underline#6c8394;
      text-underline-position: under;
      text-underline-offset: 10px;
 
  }
 
  #hrs {
-     color: #9bd0d6;
+     color: #6c8394;
      font-family: "Fraunces", serif;
      text-align: right;
      font-size: 30px;
  }
 
- @media (max-width: 629px) {
 
-     h1#title-baby {
 
-         font-size: 40px;
-
-     }
-
- }
-
- .circle {
-
-     width: 100px;
-     height: 100px;
-     border-radius: 100%;
-     box-shadow: 40px 0px 0 #d9534f;
- }
 
 
 
@@ -134,7 +119,7 @@
      font-weight: 450;
      font-size: 50px;
      font-style: normal;
-     color: #9bd0d6;
+     color: #778c9c;
      margin-top: 40px;
 
      background: rgb(255, 255, 255);
