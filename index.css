@@ -15,12 +15,6 @@
      background-color: rgb(255, 255, 255);
 
 
-
-
-
-
-
-
  }
 
  .color3 {
@@ -35,22 +29,6 @@
      background-attachment: fixed;
 
  }
-
- /*  .imagen {
-     background-image: url("img/fondos.jpg");
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
-     background-attachment: fixed;
-     width: 100%;
-     height: 100vh;
-} */
-
-
-
-
-
-
 
  #paragraph {
      font-family: "Raleway", serif;
@@ -69,11 +47,6 @@
      color: #b88776;
  }
 
- .size-animation {
-     width: 220px;
-     height: 220px;
-
- }
 
  #title-espera {
 
@@ -93,19 +66,19 @@
  }
 
  #day {
-     color: #9bd0d6;
+     color: #6c8394;
      text-align: center;
      font-size: 30px;
      font-family: "Fraunces", serif;
      font-style: normal;
-     text-decoration: 2px solid underline#96d9e0;
+     text-decoration: 2px solid underline#6c8394;
      text-underline-position: under;
      text-underline-offset: 10px;
 
  }
 
  #hrs {
-     color: #9bd0d6;
+     color: #6c8394;
      font-family: "Fraunces", serif;
      text-align: right;
      font-size: 30px;
@@ -138,7 +111,7 @@
      font-weight: 450;
      font-size: 50px;
      font-style: normal;
-     color: #9bd0d6;
+     color: #6c8394;
      margin-top: 40px;
 
      background: rgb(255, 255, 255);
