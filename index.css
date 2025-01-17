@@ -144,7 +144,7 @@
 
       h1#title-baby {
           font-size: 40px;
-          color: rgb(230, 34, 171);
+
           margin-top: 30px;
       }
 
@@ -163,7 +163,6 @@
   @media (max-width: 767px) {
       h1#title-baby {
           font-size: 33px;
-          color: rgb(231, 104, 0);
 
       }
 
@@ -196,7 +195,7 @@
 
       h1#title-baby {
           font-size: 34px;
-          color: rgb(38, 211, 22);
+
 
       }
 
@@ -211,21 +210,17 @@
       }
   }
 
-   @media (max-width: 420px) {
+  @media (max-width: 420px) {
 
-       h1#title-baby {
-           
-           color: rgb(211, 22, 164);
 
-       }
 
-       @keyframes escribir {
-           from {
-               width: 85%
-           }
+      @keyframes escribir {
+          from {
+              width: 85%
+          }
 
-           to {
-               width: 7%
-           }
-       }
-   }
+          to {
+              width: 7%
+          }
+      }
+  }
