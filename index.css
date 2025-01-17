@@ -83,7 +83,7 @@
       font-family: "Fraunces", serif;
       font-size: 24px;
 
-     
+
       /* text-decoration: underline overline dashed #af6724; */
   }
 
@@ -94,7 +94,7 @@
       font-family: "Fraunces", serif;
       font-style: normal;
 
-     
+
       /*   text-decoration: 2px solid underline#749c17; */
   }
 
@@ -104,7 +104,7 @@
       font-family: "Fraunces", serif;
       font-size: 24px;
 
-       
+
   }
 
   h1#title-baby {
@@ -139,11 +139,4 @@
       }
   }
 
-  @media (max-width: 629px) {
-
-      #hrs {
-
-          font-size: 10px;
-      }
-
-  }
+  @media (max-width: 629px) {}
