@@ -6,6 +6,19 @@
 
   }
 
+  audio {
+      width: 150px;
+      height: 24px;
+      top: 50%;
+      left: 50%;
+      margin: -25px 0 0 -25px;
+  }
+
+  .contenedor {
+      display: flex;
+      justify-content: center;
+  }
+
   .punteado {
       border-style: dashed;
       border-width: 3px;
@@ -47,7 +60,10 @@
       font-style: normal;
       font-size: 14px;
       color: #72360d;
-      margin-top: 8px;
+      margin-top: 28px;
+      padding-left: 20px;
+      padding-right: 20px;
+
   }
 
   #title-invitation {
@@ -56,13 +72,14 @@
       font-style: normal;
       font-size: 13px;
       color: #af6724;
-      margin-top: 9px;
+      margin-top: 28px;
       margin-bottom: 30px;
   }
 
   .size-animation {
-      width: 280px;
-      height: 280px;
+      width: 290px;
+      height: 290px;
+
 
   }
 
@@ -73,7 +90,7 @@
       font-optical-sizing: auto;
       font-style: normal;
       font-size: 22px;
-      margin-top: 20px;
+      margin-top: 28px;
 
   }
 
@@ -114,7 +131,7 @@
       font-style: normal;
       color: #af6724;
       margin-top: 40px;
-      background: rgb(253, 248, 240);
+      background: rgb(218 254 228);
       position: relative;
       letter-spacing: 2px;
 
@@ -124,7 +141,7 @@
       position: absolute;
       right: 0;
       width: 0;
-      background: rgb(253, 248, 240);
+      background: rgb(218 254 228);
       border-left: 1px solid #f39033;
 
       animation: escribir 5s steps(30) infinite alternate;
