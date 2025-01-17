@@ -8,11 +8,11 @@
 
   .punteado {
       border-style: dashed;
-      border-width: 5px;
-      border-color: #c5ed87;
+      border-width: 3px;
+      border-color: #bd6f27;
 
       font-family: verdana, arial;
-      font-size: 10pt;
+      font-size: 1pt;
   }
 
   .color {
@@ -45,7 +45,7 @@
       font-family: "Raleway", serif;
       font-optical-sizing: auto;
       font-style: normal;
-      font-size: 17px;
+      font-size: 14px;
       color: #72360d;
       margin-top: 8px;
   }
@@ -54,66 +54,67 @@
       font-family: "Fraunces", serif;
       font-optical-sizing: auto;
       font-style: normal;
-      font-size: 25px;
-      color: #f39033;
+      font-size: 13px;
+      color: #af6724;
       margin-top: 9px;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
   }
 
   .size-animation {
-      width: 260px;
-      height: 260px;
+      width: 280px;
+      height: 280px;
 
   }
 
   #title-espera {
 
-      color: #f39033;
+      color: #a55119;
       font-family: "Fraunces", serif;
       font-optical-sizing: auto;
       font-style: normal;
-      font-size: 25px;
-      margin-top: 15px;
+      font-size: 22px;
+      margin-top: 20px;
+
   }
 
   #month {
-      color: #749c17;
+      color: #5d810a;
       text-align: left;
       font-family: "Fraunces", serif;
-      font-size: 30px;
+      font-size: 24px;
+
+      text-decoration: underline dashed #af6724 2px;
+      /* text-decoration: underline overline dashed #af6724; */
   }
 
   #day {
-      color: #749c17;
+      color: #5d810a;
       text-align: center;
-      font-size: 30px;
+      font-size: 24px;
       font-family: "Fraunces", serif;
       font-style: normal;
-      text-decoration: 2px solid underline#749c17;
-      text-underline-position: under;
-      text-underline-offset: 10px;
+
+        text-decoration: underline dashed #af6724 2px;
+      /*   text-decoration: 2px solid underline#749c17; */
+
+
 
   }
 
   #hrs {
-      color: #749c17;
+      color: #5d810a;
       font-family: "Fraunces", serif;
       text-align: right;
-      font-size: 30px;
+      font-size: 24px;
+    text-decoration: underline dashed #af6724 2px;
   }
-
-
-
-
-
-
 
   h1#title-baby {
       font-family: "Great Vibes", serif;
       font-weight: 450;
       font-size: 50px;
       font-style: normal;
-      color: #f39033;
+      color: #af6724;
       margin-top: 40px;
       background: rgb(253, 248, 240);
       position: relative;
@@ -126,7 +127,7 @@
       width: 130px;
       background: rgb(253, 248, 240);
       border-left: 1px solid #f39033;
-      
+
       animation: escribir 5s steps(30) infinite alternate;
   }
 
@@ -136,7 +137,7 @@
       }
 
       to {
-          width: 22%
+          width: 14%
       }
   }
 
