@@ -116,13 +116,14 @@
       margin-top: 40px;
       background: rgb(253, 248, 240);
       position: relative;
+      letter-spacing: 2px;
 
   }
 
   h1 span {
       position: absolute;
       right: 0;
-      width: 130px;
+      width: 0;
       background: rgb(253, 248, 240);
       border-left: 1px solid #f39033;
 
@@ -131,12 +132,100 @@
 
   @keyframes escribir {
       from {
-          width: 75%
+          width: 43%
       }
 
       to {
-          width: 14%
+          width: 11%
       }
   }
 
-  @media (max-width: 629px) {}
+  @media (max-width: 991px) {
+
+      h1#title-baby {
+          font-size: 40px;
+          color: rgb(230, 34, 171);
+          margin-top: 30px;
+      }
+
+      @keyframes escribir {
+          from {
+              width: 43%
+          }
+
+          to {
+              width: 5%
+          }
+      }
+
+  }
+
+  @media (max-width: 767px) {
+      h1#title-baby {
+          font-size: 33px;
+          color: rgb(231, 104, 0);
+
+      }
+
+
+      @keyframes escribir {
+          from {
+              width: 40%
+          }
+
+          to {
+              width: 0%
+          }
+      }
+  }
+
+  @media (max-width: 575px) {
+
+      @keyframes escribir {
+          from {
+              width: 43%
+          }
+
+          to {
+              width: 1%
+          }
+      }
+  }
+
+  @media (max-width: 430px) {
+
+      h1#title-baby {
+          font-size: 34px;
+          color: rgb(38, 211, 22);
+
+      }
+
+      @keyframes escribir {
+          from {
+              width: 42%
+          }
+
+          to {
+              width: 0%
+          }
+      }
+  }
+
+   @media (max-width: 420px) {
+
+       h1#title-baby {
+           
+           color: rgb(211, 22, 164);
+
+       }
+
+       @keyframes escribir {
+           from {
+               width: 85%
+           }
+
+           to {
+               width: 7%
+           }
+       }
+   }
