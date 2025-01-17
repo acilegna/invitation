@@ -1,142 +1,150 @@
- .imgs {
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: contain;
-     width: 100%;
+  .imgs {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 100%;
 
- }
+  }
 
- .color {
-     background-color: rgba(255, 0, 0, 0);
+  .punteado {
+      border-style: dashed;
+      border-width: 5px;
+      border-color: #c5ed87;
 
- }
+      font-family: verdana, arial;
+      font-size: 10pt;
+  }
 
- .color2 {
-     background-color: rgb(255, 255, 255);
-
-
- }
-
- .color3 {
-     background-color: rgba(92, 111, 153, 0);
- }
-
- body {
-     background-image: url("img/fondo.jpg");
-     background-color: #6c8394;
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
-     background-attachment: fixed;
-
- }
-
- #paragraph {
-     font-family: "Raleway", serif;
-     font-optical-sizing: auto;
-     font-style: normal;
-     font-size: 15px;
-     color: #6c8394;
-     margin-top: 8px;
- }
-
- #title-invitation {
-     font-family: "Fraunces", serif;
-     font-optical-sizing: auto;
-     font-style: normal;
-     font-size: 25px;
-     color: #b88776;
- }
-
- .size-animation {
-     width: 260px;
-     height: 260px;
-
- }
-
- #title-espera {
-
-     color: #c3998b;
-     font-family: "Fraunces", serif;
-     font-optical-sizing: auto;
-     font-style: normal;
-     font-size: 25px;
-     margin-top: 10px;
- }
-
- #month {
-     color: #6c8394;
-     text-align: left;
-     font-family: "Fraunces", serif;
-     font-size: 30px;
- }
-
- #day {
-     color: #6c8394;
-     text-align: center;
-     font-size: 30px;
-     font-family: "Fraunces", serif;
-     font-style: normal;
-     text-decoration: 2px solid underline#6c8394;
-     text-underline-position: under;
-     text-underline-offset: 10px;
-
- }
-
- #hrs {
-     color: #6c8394;
-     font-family: "Fraunces", serif;
-     text-align: right;
-     font-size: 30px;
- }
+  .color {
+      background-color: rgba(255, 0, 0, 0);
 
 
+  }
+
+  .color2 {
 
 
+      background-color: rgb(218 254 228);
+  }
 
+  .color3 {
+      background-color: rgba(92, 111, 153, 0);
+  }
 
+  body {
+      background-image: url("img/fondo.jpg");
+      background-color: #6c8394;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
 
- h1#title-baby {
-     font-family: "Great Vibes", serif;
-     font-weight: 450;
-     font-size: 50px;
-     font-style: normal;
-     color: #6c8394;
-     margin-top: 40px;
+  }
 
-     background: rgb(255, 255, 255);
-     position: relative;
+  #paragraph {
+      font-family: "Raleway", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 17px;
+      color: #72360d;
+      margin-top: 8px;
+  }
 
- }
+  #title-invitation {
+      font-family: "Fraunces", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 25px;
+      color: #f39033;
+      margin-top: 9px;
+      margin-bottom: 20px;
+  }
+
+  .size-animation {
+      width: 260px;
+      height: 260px;
+
+  }
+
+  #title-espera {
+
+      color: #f39033;
+      font-family: "Fraunces", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 25px;
+      margin-top: 15px;
+  }
+
+  #month {
+      color: #749c17;
+      text-align: left;
+      font-family: "Fraunces", serif;
+      font-size: 30px;
+  }
+
+  #day {
+      color: #749c17;
+      text-align: center;
+      font-size: 30px;
+      font-family: "Fraunces", serif;
+      font-style: normal;
+      text-decoration: 2px solid underline#749c17;
+      text-underline-position: under;
+      text-underline-offset: 10px;
+
+  }
+
+  #hrs {
+      color: #749c17;
+      font-family: "Fraunces", serif;
+      text-align: right;
+      font-size: 30px;
+  }
 
 
 
 
 
- h1 span {
-     position: absolute;
-     right: 0;
-     width: 0;
-     background: rgb(255, 255, 255);
-     border-left: 1px solid #000;
-     animation: escribir 5s steps(30) infinite alternate;
- }
 
- @keyframes escribir {
-     from {
-         width: 75%
-     }
 
-     to {
-         width: 22%
-     }
- }
+  h1#title-baby {
+      font-family: "Great Vibes", serif;
+      font-weight: 450;
+      font-size: 50px;
+      font-style: normal;
+      color: #f39033;
+      margin-top: 40px;
+      background: rgb(253, 248, 240);
+      position: relative;
 
- @media (max-width: 629px) {
+  }
 
-     #hrs {
+  h1 span {
+      position: absolute;
+      right: 0;
+      width: 130px;
+      background: rgb(253, 248, 240);
+      border-left: 1px solid #f39033;
+      
+      animation: escribir 5s steps(30) infinite alternate;
+  }
 
-         font-size: 10px;
-     }
+  @keyframes escribir {
+      from {
+          width: 75%
+      }
 
- }
+      to {
+          width: 22%
+      }
+  }
+
+  @media (max-width: 629px) {
+
+      #hrs {
+
+          font-size: 10px;
+      }
+
+  }
