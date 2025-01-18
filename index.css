@@ -6,6 +6,8 @@
 
   }
 
+
+
   audio {
       width: 150px;
       height: 24px;
@@ -38,6 +40,7 @@
 
 
       background-color: rgb(218 254 228);
+
   }
 
   .color3 {
@@ -77,11 +80,11 @@
   }
 
   .size-animation {
-      width: 290px;
-      height: 290px;
+
 
       --bs-gutter-x: 0rem !important;
-
+      background: rgb(218 254 228);
+      /*    margin-top: -90px !important; */
   }
 
 
@@ -135,10 +138,13 @@
       font-size: 50px;
       font-style: normal;
       color: #af6724;
-      margin-top: 40px;
+
+
       background: rgb(218 254 228);
       position: relative;
       letter-spacing: 2px;
+      margin-top: 50px;
+      margin-bottom: -30px;
 
   }
 
