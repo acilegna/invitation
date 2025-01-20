@@ -176,19 +176,19 @@
       font-size: 22px;
       margin-top: 30px;
       margin-bottom: 20px;
-      position:relative;
-      
+      position: relative;
+
       background: rgb(218 254 228);
 
   }
 
   h3 span {
-     
+
       right: 0;
       width: 0;
       background: rgb(218 254 228);
       border-left: 1px solid #f39033;
-position: absolute;
+      position: absolute;
       animation: escribe 5s steps(30) infinite alternate;
   }
 
@@ -253,6 +253,16 @@ position: absolute;
           }
       }
 
+      @keyframes escribe {
+          from {
+              width: 70%
+          }
+
+          to {
+              width: 30%
+          }
+      }
+
   }
 
   @media (max-width: 767px) {
@@ -271,6 +281,16 @@ position: absolute;
               width: 25%
           }
       }
+
+      @keyframes escribe {
+          from {
+              width: 75%
+          }
+
+          to {
+              width: 23%
+          }
+      }
   }
 
   @media (max-width: 575px) {
@@ -282,6 +302,16 @@ position: absolute;
 
           to {
               width: 6%
+          }
+      }
+
+      @keyframes escribe {
+          from {
+              width: 70%
+          }
+
+          to {
+              width: 27%
           }
       }
   }
@@ -321,6 +351,16 @@ position: absolute;
               width: 24%
           }
       }
+
+      @keyframes escribe {
+          from {
+              width: 75%
+          }
+
+          to {
+              width: 25%
+          }
+      }
   }
 
 
@@ -335,6 +375,16 @@ position: absolute;
 
           to {
               width: 16%
+          }
+      }
+
+      @keyframes escribe {
+          from {
+              width: 80%
+          }
+
+          to {
+              width: 17%
           }
       }
   }
