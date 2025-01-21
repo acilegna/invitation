@@ -355,12 +355,20 @@
   @media (max-width: 404px) {
 
 
+      #day {
+
+
+          font-size: 30px;
+          margin: auto;
+
+      }
 
       #hrs,
       #month {
 
           text-align: center;
-          font-size: 23px;
+          font-size: 20px;
+          margin: auto;
       }
 
       @keyframes escribir {
