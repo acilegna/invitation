@@ -90,7 +90,6 @@
   }
 
 
-
   #fecha {
       margin-right: 0 !important;
       margin-left: 0 !important;
@@ -105,7 +104,6 @@
   }
 
   #month {
-
       text-align: left;
       font-size: 25px;
       text-decoration: underline #849202;
@@ -113,20 +111,14 @@
   }
 
   #day {
-
       text-align: center;
       font-size: 38px;
-
-
   }
 
   #hrs {
-
-
       text-align: right;
       font-size: 25px;
       text-decoration: underline #849202;
-
 
   }
 
@@ -136,8 +128,6 @@
       font-size: 50px;
       font-style: normal;
       color: #af6724;
-
-
       background: rgb(218 254 228);
       position: relative;
       letter-spacing: 2px;
@@ -152,7 +142,6 @@
       width: 0;
       background: rgb(218 254 228);
       border-left: 1px solid #f39033;
-
       animation: escribir 5s steps(30) infinite alternate;
   }
 
@@ -177,7 +166,6 @@
       margin-top: 30px;
       margin-bottom: 20px;
       position: relative;
-
       background: rgb(218 254 228);
 
   }
@@ -367,6 +355,13 @@
   @media (max-width: 404px) {
 
 
+
+      #hrs,
+      #month {
+
+          text-align: center;
+          font-size: 23px;
+      }
 
       @keyframes escribir {
           from {
