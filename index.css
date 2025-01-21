@@ -96,36 +96,36 @@
       margin-left: 0 !important;
   }
 
-  #month {
+  .fechas {
       color: #96a504;
+      font-family: "Suranna", serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-top: 15px;
+  }
+
+  #month {
+
       text-align: left;
-      font-family: "Fraunces", serif;
-      font-size: 24px;
+      font-size: 25px;
+      text-decoration: underline #849202;
 
-
-
-
-      /* text-decoration: underline overline dashed #af6724; */
   }
 
   #day {
-      color: #96a504;
+
       text-align: center;
-      font-size: 28px;
-      font-family: "Fraunces", serif;
-      font-style: normal;
-      text-decoration: underline dashed #849202;
-      ;
+      font-size: 38px;
+      
+        background-color: rgb(233, 255, 239);
   }
 
-
-
   #hrs {
-      color: #96a504;
-      text-align: right;
-      font-family: "Fraunces", serif;
-      font-size: 24px;
 
+
+      text-align: right;
+      font-size: 25px;
+      text-decoration: underline #849202;
 
 
   }
