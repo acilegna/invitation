@@ -35,10 +35,20 @@
   }
 
 
-
-
+  .contenedor {
+      display: flex;
+      justify-content: center;
+      background-color: #af672400;
+  }
 
   audio {
+      width: 140px;
+      height: 24px;
+      background-color: #6e9307;
+
+  }
+
+  /*   audio {
       width: 140px;
       height: 24px;
       top: 50%;
@@ -48,12 +58,8 @@
       background-color: #ee8d0e;
 
 
-  }
+  } */
 
-  .contenedor {
-      display: flex;
-      justify-content: center;
-  }
 
   .punteado {
       border-style: dashed;
@@ -131,7 +137,7 @@
 
   .fechas {
 
-      color: #40982d;
+      color: #6e9307;
       font-family: "Suranna", serif;
       font-weight: 400;
       font-style: normal;
@@ -141,7 +147,7 @@
   #month {
       text-align: left;
       font-size: 25px;
-      text-decoration: underline #339b03;
+      text-decoration: underline #6e9307;
 
       margin: auto;
 
@@ -156,7 +162,7 @@
   #hrs {
       text-align: right;
       font-size: 25px;
-      text-decoration: underline #339b03;
+      text-decoration: underline #6e9307;
 
       margin: auto;
 
