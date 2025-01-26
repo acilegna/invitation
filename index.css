@@ -7,7 +7,7 @@
 #vl {
   border-right: 2px solid #6e9307;
   /*  border-bottom: 2px dashed #6e9307; */
-  height: 80px;
+  height: auto;
 }
 
 #v2 {
