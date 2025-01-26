@@ -150,7 +150,7 @@ audio {
 .punteado {
   border-style: dashed;
   border-width: 2px;
-  border-color: #6e9307;
+  border-color: #a55119;
 
   font-family: verdana, arial;
   font-size: 1pt;
@@ -246,7 +246,7 @@ h3#title-espera {
   font-style: oblique;
   font-size: 22px;
   margin-top: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
   position: relative;
   background: rgb(218 254 228);
   animation: color-change 1s infinite;
