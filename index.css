@@ -96,33 +96,26 @@
   border-color: #72360d;
 }
 
-#btnConfirma {
+/* #btnConfirma {
   font-size: 8px;
   background-color: #af672400;
   color: #72360d;
   padding: auto;
   border-color: #72360d;
   border-style: dotted;
-}
-.animate-charcter {
-  text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #2291b3 0%,
-    #38a107 29%,
-    #ff7113 67%,
-    #f700ff 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #eb5858;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
+} */
+
+a#btnConfirma {
+  font-size: 10px;
+  background-color: #af672400;
+  color: #72360d;
+  font-weight: bold;
+  padding: auto;
+  border-color: #72360d;
+  border-style: dashed;
+  padding: 5px 5px 5px 5px;
+  border-width: 1px;
+  text-decoration: none;
 }
 
 @keyframes textclip {
@@ -252,28 +245,18 @@ h3#title-espera {
   font-optical-sizing: auto;
   font-style: oblique;
   font-size: 22px;
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: 20px;
   position: relative;
   background: rgb(218 254 228);
+  animation: color-change 1s infinite;
 }
-
-h3 span {
-  right: 0;
-  width: 0;
-  background: rgb(218 254 228);
-  border-left: 1px solid #f39033;
-  position: absolute;
-  animation: escribe 5s steps(30) infinite alternate;
-}
-
-@keyframes escribe {
-  from {
-    width: 65%;
+@keyframes color-change {
+  79% {
+    color: #6e9307;
   }
-
-  to {
-    width: 35%;
+  80% {
+    color: #924511;
   }
 }
 
@@ -315,16 +298,6 @@ h3 span {
       width: 3%;
     }
   }
-
-  @keyframes escribe {
-    from {
-      width: 70%;
-    }
-
-    to {
-      width: 30%;
-    }
-  }
 }
 
 @media (max-width: 767px) {
@@ -341,16 +314,6 @@ h3 span {
       width: 25%;
     }
   }
-
-  @keyframes escribe {
-    from {
-      width: 75%;
-    }
-
-    to {
-      width: 23%;
-    }
-  }
 }
 
 @media (max-width: 575px) {
@@ -361,16 +324,6 @@ h3 span {
 
     to {
       width: 6%;
-    }
-  }
-
-  @keyframes escribe {
-    from {
-      width: 70%;
-    }
-
-    to {
-      width: 27%;
     }
   }
 }
@@ -405,16 +358,6 @@ h3 span {
       width: 24%;
     }
   }
-
-  @keyframes escribe {
-    from {
-      width: 75%;
-    }
-
-    to {
-      width: 25%;
-    }
-  }
 }
 
 @media (max-width: 404px) {
@@ -425,16 +368,6 @@ h3 span {
 
     to {
       width: 16%;
-    }
-  }
-
-  @keyframes escribe {
-    from {
-      width: 80%;
-    }
-
-    to {
-      width: 17%;
     }
   }
 }
