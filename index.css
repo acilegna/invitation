@@ -66,13 +66,24 @@
   margin-top: -6px;
 }
 #fecha,
-#contacto {
+#contacto,
+#confirmar {
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
-
+#confirmar {
+}
+#title-confirmar {
+  font-size: 10px;
+  text-align: right;
+  display: block;
+  color: rgb(204, 6, 6);
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
 #entheos {
   font-size: 8px;
+  margin-top: 20px;
   margin-bottom: 7px;
   color: rgb(19, 19, 19);
 }
@@ -96,14 +107,13 @@
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
+  color: #eb5858;
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 190px;
 }
 
 @keyframes textclip {
@@ -115,13 +125,12 @@
 .contenedor {
   display: flex;
   justify-content: center;
-  background-color: #af672400;
 }
 
 audio {
-  width: 140px;
   height: 24px;
-  background-color: #6e9307;
+
+  /* background-color: #6e9307; */
 }
 
 /*   audio {
