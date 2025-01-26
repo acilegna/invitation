@@ -77,8 +77,8 @@
   font-size: 10px;
   text-align: right;
   display: block;
-  color: rgb(204, 6, 6);
-  margin-top: 20px;
+  color: #3f1e08;
+  margin-top: 27px;
   margin-bottom: 7px;
 }
 #entheos {
@@ -94,6 +94,15 @@
   background-color: #af672400;
   color: #72360d;
   border-color: #72360d;
+}
+
+#btnConfirma {
+  font-size: 8px;
+  background-color: #af672400;
+  color: #72360d;
+  padding: auto;
+  border-color: #72360d;
+  border-style: dotted;
 }
 .animate-charcter {
   text-transform: uppercase;
